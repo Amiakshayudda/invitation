@@ -8,8 +8,8 @@ const Third = () => {
 
     const handleClick = () => {
         console.log('button clicked');
-        const latitude = 17.5188566;
-        const longitude = 76.1865786;
+        const latitude = 17.648346;
+        const longitude = 75.9217866;
         const url = `https://www.google.com/maps?q=${latitude},${longitude}`;
 
         window.open(url, '_blank');
@@ -22,11 +22,11 @@ const Third = () => {
                         WHERE ??
                     </span>
                     <span style={{fontSize:'28px', textAlign:'center'}} className="heading flex flex-col items-center justify-center mb-2">
-                        <span>VIKAS FUNCTION HALL,</span>
+                        <span>PUSHPASNEH GARDEN,</span>
                     </span>
                     <span style={{fontSize:'18px', textAlign:'center'}} className="heading flex flex-col items-center justify-center mb-2">
-                        <span>Byagehalli Road, Vikas Nagar,</span>
-                        <span>Akkalkot, Dist. Solapur - 413216</span>
+                        <span>Antrolikar Nagar, Solapur</span>
+                        {/* <span>Solapur - 413216</span> */}
                     </span>
                     <span style={{fontSize:'18px', textAlign:'center'}} className="heading flex flex-col items-center justify-center mb-4">
                         <span>Contact - 9482887651</span>
@@ -37,8 +37,8 @@ const Third = () => {
                         WHEN ??
                     </span>
                     <span style={{fontSize:'18px', textAlign:'center'}} className="heading flex flex-col items-center justify-center mb-2">
-                        <span>DECEMBER 7, 2023</span>
-                        <span>AT 12:18 PM</span>
+                        <span>FEBRUARY 18, 2024</span>
+                        <span>AT 06:22 PM</span>
                     </span>
                 </div>
                 <div className="flex flex-row w-full items-center justify-center mt-14">

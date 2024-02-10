@@ -11,9 +11,14 @@ const Home = () => {
             {/* <img src="https://antphotography.in/wp-content/uploads/2019/08/DSC1755-Edit.jpg"></img> */}
             <div className="home-div text-pink rounded-lg flex flex-col items-center">
                 <div className="w-full flex flex-col items-center justify-center pt-4">
-                    <span style={{fontSize:'18px', textAlign:'center'}} className="heading">
+                    <div className="div-gradient text-white rounded-lg p-2">
+                        <span style={{fontSize:'18px', textAlign:'center'}} className="heading">
+                            WE ARE GETTING MARRIED...<GiSelfLove />
+                        </span>
+                    </div>
+                    {/* <span style={{fontSize:'18px', textAlign:'center'}} className="heading">
                         WE ARE GETTING MARRIED...<GiSelfLove />
-                    </span>
+                    </span> */}
                     {/* <span style={{fontSize:'35px', textAlign:'center'}} className="heading flex items-center justify-center">
                         <span className="mr-4">Ajay</span><span className="mr-4"><GiSelfLove /></span><span className="">Pooja</span>
                     </span>

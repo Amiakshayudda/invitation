@@ -25,6 +25,7 @@ module.exports = {
         lightpink: "#fdf2f8",
         blue: "#1d4ed8",
         yellow: "#f59e0b",
+        orange: "#fb923c",
       },
       spacing: {},
       fontFamily: {
